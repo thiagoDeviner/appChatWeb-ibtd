@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>IBTD</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="./src/css/tema.css">
+        <link rel="stylesheet" href="./src/css/elementos.css">
+    </head>
+    <body class="cor-fundo">
+        <div class="faixa-cinza"></div>
+        <div class="bloco-central sombra">
+
+            <!--Lado Esquerdo-->
+            <div class="lado-e">
+                <!--Header Lateral Esquerda-->
+                <ul class="lista">
+                    <li class="cinza-1">
+                        <img src="src/img/logo-ibtd.png" alt="Logo IBTD" class="imagem-pessoa">
+
+                        <img src="src/img/svg-comment.svg" class="icone-sup">
+                        <img src="src/img/svg-menu.svg" class="icone-sup">
+                        <img src="src/img/svg-stories.svg" class="icone-sup">
+                        
+                    </li>
+
+                    <li class="cinza-2">
+                        <input type="text" class="input-search" placeholder="Pesquisar ou começar uma nova conversa"/>
+                    </li>
+                </ul>
+                <!--Lista Mensagens-->
+                <ul class="lista lista-conversas">
+                    
+                </ul>
+            </div>
+
+            <!--Lado Direito-->
+            <div class="lado-d">
+                <article class="tela-default">
+                    <img src="src/img/intro-connection-light.jpg" >
+                    <h1>Bem vindo(a) ao aplicativo de gerenciamento de mensagens via 
+                        WhatsApp da IBTD.</h1>
+                </article>
+
+                <!--Tela Conversas-->
+                <article class="template-conversa">
+                    <ul class="lista">
+                        <!--Header Lado Direito-->
+                        <li class="cinza-1">
+                            <img src="src/img/logo-ibtd.png" alt="Logo IBTD" class="imagem-pessoa" id="profile-img">
+                            
+                            <div class="bloco-pessoa-conversa">
+                                <b id="nomeDaPessoa">Nome da Pessoa</b>
+                                <p>Online</p>
+                            </div>
+
+                            <img src="src/img/svg-menu.svg" class="icone-conversa-sup">
+                            <img src="src/img/svg-search.svg" class="icone-conversa-sup">
+                        </li>
+                        <!--Mensagens-->
+                        <li class="lista-mensagens-conversa">
+                            <ul class="lista">
+                                <li>
+                                    <article class="mensagem">
+                                        Eu sou uma mensagem.
+                                        <div class="hora">19:15</div>
+                                    </article>                   
+                                </li>
+
+                                <li>
+                                    <article class="minha-msg">
+                                        Eu sou uma mensagem.
+                                        <div class="hora">19:15</div>
+                                    </article>                   
+                                </li>
+                            </ul>
+                        </li>
+                        <!--Input Mensagem-->
+                        <li class="cinza-1">
+                            <img src="src/img/svg-smile.svg" class="icone-bot-conv">
+                            <img src="src/img/svg-paperclip.svg" class="icone-bot-conv">
+                            <input type="text" placeholder="Digite uma mensagem" class="input-send-search">
+                            <img src="src/img/svg-mic.svg" class="icone-bot-conv">
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+
+        <!--Scripts JavaScript-->
+        <script src="js/script.js"></script>
+    </body>
+</html>
