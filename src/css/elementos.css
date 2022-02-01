@@ -178,7 +178,6 @@ body, html{
     color: gray;;
     text-align: right;
     margin-top: 5px;
-
 }
 
 .icone-bot-conv{
@@ -197,6 +196,63 @@ body, html{
 
 /* inicio da responsividade */
 
-@media screen {
+@media(min-width:769px) and (max-width:1024px){
     
+
+    /* lado direito */
+    .mensagem .hora, .minha-msg .hora{
+        font-size: 16px;
+    }
+
+    .minha-msg{
+        font-size: 16px;
+    }
+
+    .mensagem{
+        font-size: 16px;
+        transition: 0.3s ease;
+    }
+
+    .bloco-pessoa-conversa{
+        line-height: 0.4;
+        float: left;
+        margin-top: 9px;
+        margin-left: 15px;
+        font-size: 14px;
+    }
+
+    .lista-conversas li .bloco-lateral{
+        font-size:18px;
+        transition: 0.3s;
+    }
+
+    .lista-conversas li .bloco-conversa{
+        font-size: 18px;
+    }
+
+
+}
+
+@media(min-width:481px) and (max-width:768px){
+
+.lista-conversas li .bloco-lateral{
+    font-size:18px;
+    transition: 0.3s;
+}
+
+.lista-conversas li .bloco-conversa{
+    font-size: 18px;
+}
+}
+
+@media(min-width:320px) and (max-width:480px) {
+    .lado-d { 
+         display: none;    
+}
+
+    .lista-conversas li .bloco-lateral{
+        font-size:18px;
+        transition: 0.3s;
+}
+
 }
